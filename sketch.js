@@ -70,7 +70,6 @@ function draw() {
     if (time > 3200){
          enemy4.velocity.x = (spr.position.x - enemy4.position.x) * 0.02
         enemy4.velocity.y = (spr.position.y - enemy4.position.y) * 0.02
-        enemy4.collide(enemy, enemy2);
         enemy4.rotateToDirection = true
     
     }
